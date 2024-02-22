@@ -1,3 +1,29 @@
 * {
     background-color: aliceblue;
 }
+
+.imagesection {
+    /* height: 100px; */
+    /* width: 100vw;
+    height: 100vh; */
+    /* overflow: auto; */
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.singleimage {
+    height: 400px;
+    width: 40%;
+
+}
+
+.singleimage img{
+    /* height: 30%;
+    width: 30%; */
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    margin: 10px;
+    border-radius: 1rem;
+
+}
