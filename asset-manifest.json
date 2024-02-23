@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/misraag/loginPage-react-firebase/static/css/main.a4666710.css",
-    "main.js": "/misraag/loginPage-react-firebase/static/js/main.ec7d30e3.js",
-    "static/js/453.9c5d69c4.chunk.js": "/misraag/loginPage-react-firebase/static/js/453.9c5d69c4.chunk.js",
-    "static/media/background1.jpg": "/misraag/loginPage-react-firebase/static/media/background1.faa65efad11962531b3a.jpg",
-    "static/media/logo.svg": "/misraag/loginPage-react-firebase/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/misraag/loginPage-react-firebase/index.html",
-    "main.a4666710.css.map": "/misraag/loginPage-react-firebase/static/css/main.a4666710.css.map",
-    "main.ec7d30e3.js.map": "/misraag/loginPage-react-firebase/static/js/main.ec7d30e3.js.map",
-    "453.9c5d69c4.chunk.js.map": "/misraag/loginPage-react-firebase/static/js/453.9c5d69c4.chunk.js.map"
+    "main.css": "/loginPage-react-firebase/static/css/main.7caa87ac.css",
+    "main.js": "/loginPage-react-firebase/static/js/main.04ca55d4.js",
+    "static/js/453.9c5d69c4.chunk.js": "/loginPage-react-firebase/static/js/453.9c5d69c4.chunk.js",
+    "static/media/background1.jpg": "/loginPage-react-firebase/static/media/background1.faa65efad11962531b3a.jpg",
+    "static/media/logo.svg": "/loginPage-react-firebase/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/loginPage-react-firebase/index.html",
+    "main.7caa87ac.css.map": "/loginPage-react-firebase/static/css/main.7caa87ac.css.map",
+    "main.04ca55d4.js.map": "/loginPage-react-firebase/static/js/main.04ca55d4.js.map",
+    "453.9c5d69c4.chunk.js.map": "/loginPage-react-firebase/static/js/453.9c5d69c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4666710.css",
-    "static/js/main.ec7d30e3.js"
+    "static/css/main.7caa87ac.css",
+    "static/js/main.04ca55d4.js"
   ]
 }
