@@ -6,34 +6,29 @@
     color: white;
     justify-content: center;
     align-items: center;
-    /* background-color: green; */
-
 }
 
+
+
+/* ****************************NAVBAR********************************** */
 nav{
-    /* background-color: red; */
-    /* position: absolute; */
-    /* top: 0; */
     display: flex;
     flex-direction: column;
     padding: 10px;
     background: rgba(255, 255, 255, 0.2);
-    /* margin-bottom: 70px; */
     width: 60%;
     height: 20vh;
-    /* background-color: red; */
 }
 
-.homepage h1 {
+nav h1 {
     font-size: 50px;
     font-family: "Protest Revolution", sans-serif;
     font-family: "Lobster", sans-serif;
     margin-left: 15px;
     letter-spacing: 5px;
-    /* background-color: green; */
-    /* margin: 20px auto; */
     margin: auto auto;
 }
+
 
 .navbuttons {
     display: flex;
@@ -46,58 +41,42 @@ nav{
     outline: 0;
     box-shadow: 0, 0, 10px, rgba(255, 255, 255, 0.2);
     border-radius: 10px;
-    /* background-color: blue; */
 }
 
 .navbuttons button {
     width: auto;
-    /* padding: 10px; */
     border-radius: 10px;
     margin: 0;
     margin-right: 15px;
-    background-color: transparent;
-    
+    background-color: transparent; 
 }
 
-.uploadbutton {
+.uploadsection {
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
-    /* background-color: green; */
     margin-left: 15px;
 }
 
-.uploadbutton button {
+.uploadsection button {
     margin: 0;
     margin-left: 15px;
-    /* padding: 15px; */
     color: white;
-    /* background-color: rgb(105, 103, 103); */
-    
-}
-
-.uploadbutton input button {
-   border: 0;
 }
 
 
+
+/* *************************IMAGE SECTION************************* */
 
 .imagesection {
-    display: flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 55%;
-  /* background-color: green; */
   margin: 5vh auto;
   height: 70vh;
-  /* height: auto; */
   overflow-y: auto;
-  /* position: relative; */
-  /* position: relative; */
-  /* background-color: beige; */
-  
-
 }
 
 .singleimage {
@@ -111,6 +90,7 @@ nav{
 }
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 0;
+    margin: 0;
 }
 

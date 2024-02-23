@@ -5,22 +5,20 @@
 }
 
 
-.login {
-    background: transparent;
-    width: 22vw;
-    /* border: 1px solid white; */
-    border: 2px solid rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(50px);
-    box-shadow: 0, 0, 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    border-radius: 1.5rem;
-    padding: 20px;
-    color: white;
+.signup {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    background: transparent;
+    width: 22vw;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(50px);
+    box-shadow: 0, 0, 10px rgba(0, 0, 0, 0.2);
+    border-radius: 1.5rem;
+    padding: 20px;
+    color: white;
 }
 
 .signupform {
@@ -28,18 +26,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: transparent;
     width: 100%;
 }
 
 .inputbox {
     position: relative;
     width: 85%;
-    /* background-color: red; */
     display: flex;
-    /* position: absolute; */
-    /* margin: 20px auto; */
-    /* margin: 13px auto; */
     margin-bottom: 30px;
 }
 
@@ -53,27 +46,22 @@
     padding: 5px;
     padding-right: 52px;
     padding-left: 10px;
-    color: rgb(74, 73, 73);
+    color: white;
+    background-color: transparent;
 }
 
 .inputbox input::placeholder {
-    color: grey;
+    color: white;
 }
 
 
 .icons {
     position: absolute;
-    /* background-color: blue; */
-    height: 35px;
     width: 20px;
     right: 20px;
-    /* background-color: red; */
-    color: antiquewhite;
-    color: rgb(185, 194, 194);
+    color: white;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 16px;
-
 }
 
 .signupform button {
@@ -86,7 +74,6 @@
     border: 0;
     outline: 0;
     background: rgba(0, 0, 0, 0.8);
-    /* background-color: rgb(51, 181, 188); */
     background-color: rgb(247 174 197);
     color: white;
     cursor: pointer;
@@ -95,9 +82,7 @@
 }
 
 .signupform button:hover {
-    background-color: rgb(1 212 206);
-    /* color: black; */
-    
+    background-color: rgb(1 212 206); 
 }
 
 p {

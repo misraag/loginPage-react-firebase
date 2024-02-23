@@ -77,12 +77,12 @@ function Home ({user, handleLogout}) {
                 <h1>Gallery</h1>
                 <div className={styles.navbuttons}>
                 
-                <div className={styles.uploadbutton}>
-                <input type="file" accept="image/*" onChange={(handleFileChange)}/>
-                <button onClick={handleImageUpload}>Upload</button>
-                </div>
+                    <div className={styles.uploadsection}>
+                    <input type="file" accept="image/*" onChange={(handleFileChange)}/>
+                    <button onClick={handleImageUpload}>Upload</button>
+                    </div>
 
-                <button onClick={handleLogoutClick}>Logout</button>
+                    <button onClick={handleLogoutClick}>Logout</button>
 
 
                 </div>
@@ -90,9 +90,7 @@ function Home ({user, handleLogout}) {
             
             <div className={styles.imagesection}>
                 {images.map((image) => (
-                    // <div className={styles.singleimage} key={image.id}>
                         <img className={styles.singleimage} src={image.url} alt={`User Uploaded ${image.id}`} />   
-                    // </div>
                 ))}
             </div>
         </div>
