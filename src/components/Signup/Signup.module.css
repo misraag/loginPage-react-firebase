@@ -1,3 +1,8 @@
+.container {
+    display: grid;
+  place-items: center;
+  height: 100vh;
+}
 
 
 .login {
@@ -34,6 +39,7 @@
     display: flex;
     /* position: absolute; */
     /* margin: 20px auto; */
+    /* margin: 13px auto; */
     margin-bottom: 30px;
 }
 

@@ -25,6 +25,7 @@ function Signup() {
 
 
     return (
+      <div className={styles.container}>
       <div className={styles.login}>
         
         <form className={styles.signupform} onSubmit={handleSignup}>
@@ -40,6 +41,7 @@ function Signup() {
           <button type="submit">Register</button>
         </form>
 
+      </div>
       </div>
     );
   }

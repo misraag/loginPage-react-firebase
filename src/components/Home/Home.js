@@ -29,10 +29,12 @@ function Home ({user, handleLogout}) {
                     timestamp: firebase.firestore.FieldValue.serverTimestamp(),
                 });
             } else {
+                    alert('No image is selected for upload');
                 console.log("No image is selected for upload");
             }
         } catch (error) {
             console.log("Image upload error: ", error.message);
+            
         }
     }
 
@@ -69,21 +71,31 @@ function Home ({user, handleLogout}) {
     }, [user, userImageCollection]);
 
     return(
-        <div className="Home">
+        <div>
+        <div className={styles.homepage}>
             <nav>
-                <h1>WELCOME TO YOUR GALLERY</h1>
+                <h1>Gallery</h1>
+                <div className={styles.navbuttons}>
+                
+                <div className={styles.uploadbutton}>
                 <input type="file" accept="image/*" onChange={(handleFileChange)}/>
                 <button onClick={handleImageUpload}>Upload</button>
+                </div>
+
                 <button onClick={handleLogoutClick}>Logout</button>
+
+
+                </div>
             </nav>
             
             <div className={styles.imagesection}>
                 {images.map((image) => (
-                    <div className={styles.singleimage} key={image.id}>
-                        <img src={image.url} alt={`User Uploaded ${image.id}`} />   
-                    </div>
+                    // <div className={styles.singleimage} key={image.id}>
+                        <img className={styles.singleimage} src={image.url} alt={`User Uploaded ${image.id}`} />   
+                    // </div>
                 ))}
             </div>
+        </div>
         </div>
     );
 }

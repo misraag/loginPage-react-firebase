@@ -20,11 +20,13 @@ function Login() {
       navigate('/home');
 
     } catch (error) {
+      alert('Credentials not matching');
       console.log("Credentials not matching");
     }
   }
 
     return (
+      <div className={styles.container}>
       <div className={styles.login}>
         
         <form className={styles.loginform} onSubmit={handleLogin}>
@@ -42,6 +44,7 @@ function Login() {
 
         <p>Don't have an account ?<Link to='/signup' className={styles.signuplink}>Register</Link></p>
 
+      </div>
       </div>
     );
   }
