@@ -40,7 +40,7 @@ function Login() {
           <button type="submit">Login</button>
         </form>
 
-        <p>Don't have an account ?<Link to='/signup' className={styles.signuplink}>Register here</Link></p>
+        <p>Don't have an account ?<Link to='/signup' className={styles.signuplink}>Register</Link></p>
 
       </div>
     );

@@ -2,7 +2,7 @@
 
 .login {
     background: transparent;
-    width: 30vw;
+    width: 22vw;
     /* border: 1px solid white; */
     border: 2px solid rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(50px);
@@ -85,6 +85,7 @@
     color: white;
     cursor: pointer;
     font-size: 14px;
+    font-weight: bold;
 }
 
 .signupform button:hover {
@@ -97,7 +98,3 @@ p {
     font-size: 14px;
 }
 
-.signuplink {
-    font-size: 12px;
-    margin-left: 7px;
-}
