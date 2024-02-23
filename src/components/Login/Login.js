@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import styles from "./Login.module.css";
 import firebase from "firebase/compat/app";
+import { FaLock, FaUser } from "react-icons/fa";
 
 function Login() {
 
@@ -24,17 +25,22 @@ function Login() {
   }
 
     return (
-      <div className="Login">
+      <div className={styles.login}>
         
-        <form onSubmit={handleLogin}>
-          <label>Email:</label>
-          <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required></input>
-          <label>Password:</label>
-          <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} required />
+        <form className={styles.loginform} onSubmit={handleLogin}>
+          <h1>Login</h1>
+          <div className={styles.inputbox}>
+          <input placeholder="Email" type="email" value={email} onChange={(e) => setEmail(e.target.value)} required></input>
+          <FaUser className={styles.icons}/>
+          </div>
+          <div className={styles.inputbox}>
+          <input placeholder="Password" type="password" value={password} onChange={(e) => setPassword(e.target.value)} required />
+          <FaLock className={styles.icons}/>
+          </div>
           <button type="submit">Login</button>
         </form>
 
-        <p>New User? <Link to='/signup'>Register here</Link></p>
+        <p>Don't have an account ?<Link to='/signup' className={styles.signuplink}>Register here</Link></p>
 
       </div>
     );
