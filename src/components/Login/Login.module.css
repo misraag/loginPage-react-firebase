@@ -47,6 +47,7 @@
     padding-right: 52px;
     padding-left: 10px;
     color: rgb(74, 73, 73);
+    /* color: rgb(1 212 206); */
 }
 
 .inputbox input::placeholder {
@@ -70,17 +71,25 @@
 }
 
 button {
-    margin-top: 10px;
+    margin-top: 15px;
     height: 30px;
-    width: 40%;
+    width: 30%;
     padding: 5px;
     border-radius: 15px;
     border: 0;
     outline: 0;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.5);
+    background-color: rgb(247 174 197);
+    /* background-color: green; */
     color: white;
+    /* color: grey; */
     cursor: pointer;
-    font-size: 16px;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: rgb(1 212 206);
+    /* color: black; */
 }
 
 p {
